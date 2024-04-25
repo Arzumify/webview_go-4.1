@@ -1,9 +1,10 @@
-# webview_go
+# webview_go-4.1
 
-[![GoDoc](https://godoc.org/github.com/webview/webview_go?status.svg)](https://godoc.org/github.com/webview/webview_go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/webview/webview_go)](https://goreportcard.com/report/github.com/webview/webview_go)
+[![GoDoc](https://godoc.org/github.com/arzumify/webview_go-4.1?status.svg)](https://godoc.org/github.com/arzumify/webview_go-4.1)
+[![Go Report Card](https://goreportcard.com/badge/github.com/arzumify/webview_go-4.1)](https://goreportcard.com/report/github.com/webview/webview_go)
 
-Go language binding for the [webview library][webview].
+Go language binding for the [webview library][webview], for webkitgtk-4.1.
+This is entirely backwards compatible with webview_go 4.0, and needs only a dependency replacement.
 
 > [!NOTE]
 > Versions <= 0.1.1 are available in the [old repository][webview].
@@ -27,7 +28,7 @@ go mod init example.com/app
 Save one of the example programs into your project directory.
 
 ```sh
-curl -sSLo main.go "https://raw.githubusercontent.com/webview/webview_go/master/examples/basic/main.go"
+curl -sSLo main.go "https://raw.githubusercontent.com/arzumify/webview_go-4.1/master/examples/basic/main.go"
 ```
 
 Install dependencies.
@@ -46,5 +47,5 @@ go build
 
 Calling `Eval()` or `Dispatch()` before `Run()` does not work because the webview instance has only been configured and not yet started.
 
-[go-docs]: https://pkg.go.dev/github.com/webview/webview_go
+[go-docs]: https://pkg.go.dev/github.com/arzumify/webview_go-4.1
 [webview]: https://github.com/webview/webview
