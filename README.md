@@ -1,5 +1,8 @@
 # webview_go-4.1
 
+## Deprecated
+Please use the [Centrifuge repo](centrifuge.hectabit.org/HectaBit/webview_go) instead
+
 [![GoDoc](https://godoc.org/github.com/arzumify/webview_go-4.1?status.svg)](https://godoc.org/github.com/arzumify/webview_go-4.1)
 [![Go Report Card](https://goreportcard.com/badge/github.com/arzumify/webview_go-4.1)](https://goreportcard.com/report/github.com/webview/webview_go)
 
